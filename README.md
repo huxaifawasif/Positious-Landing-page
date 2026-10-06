@@ -1,16 +1,36 @@
-# React + Vite
+# Positivus Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with React and Vite. This project provides a fast, optimized, and developer-friendly setup for creating high-converting web interfaces.
 
-Currently, two official plugins are available:
+## Features
+- Fast development server and optimized build environment
+- Component-based architecture
+- Hot Module Replacement (HMR) for instant feedback during development
+- Clean and minimal project structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- Vite
 
-## React Compiler
+## Prerequisites
+Ensure you have Node.js and npm (or yarn) installed on your machine.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation and Setup
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   git clone https://github.com/huxaifawasif/Positious-Landing-page.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project directory:
+   cd positivus-landing-page
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+## Available Scripts
+- `npm run dev`: Starts the development server.
+- `npm run build`: Compiles and bundles the application for production.
+- `npm run lint`: Runs ESLint to identify code issues.
+- `npm run preview`: Locally previews the production build.
